@@ -6,52 +6,66 @@
 <title>Coming Soon</title>
 <style>
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-background-color: #00FFFF;
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-text-align: center;
-padding: 2rem;
+  background-color: #00FFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
 }
 
 .container {
-max-width: 600px;
+  max-width: 600px;
 }
 
 .preview-image {
-max-width: 100%;
-height: auto;
-max-height: 250px;
-margin-bottom: 2rem;
-object-fit: contain;
-display: block;
-margin-left: auto;
-margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 250px;
+  margin-bottom: 2rem;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
-font-family: "Times New Roman", Times, Georgia, "Baskerville", serif;
-font-weight: 300; /* Light / thin styling */
-font-size: 2.25rem;
-color: #000000;
-letter-spacing: 0.05em;
+  font-family: "Times New Roman", Times, Georgia, "Baskerville", serif;
+  font-weight: 300; /* Light / thin styling */
+  font-size: 2.25rem;
+  color: #000000;
+  letter-spacing: 0.05em;
+  margin-bottom: 2rem; /* Spacing between the text and the new image */
+}
+
+/* Styling for the new image below the heading */
+.bottom-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
 </head>
 <body>
 
 <div class="container">
-<img src="green-dragon.png" alt="Preview Image" class="preview-image">
+  <img src="green-dragon.png" alt="Preview Image" class="preview-image">
 
-<h1>we might be coming soon…</h1>
+  <h1>we might be coming soon…</h1>
+
+  <img src="your-second-image.png" alt="Secondary Image" class="bottom-image">
 </div>
 
 </body>
