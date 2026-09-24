@@ -5,10 +5,6 @@
 <loc>https://austinleejohnscott.com/</loc>
 </url>
 <url>
-<loc>https://austinleejohnscott.com/downloads.html</loc>
-<lastmod>2026-09-19T16:37:30-04:00</lastmod>
-</url>
-<url>
 <loc>https://austinleejohnscott.com/dragons.html</loc>
 <lastmod>2026-09-19T20:17:48-04:00</lastmod>
 <image:image>
@@ -71,6 +67,14 @@
 <url>
 <loc>https://austinleejohnscott.com/useful-links.html</loc>
 <lastmod>2026-09-19T18:35:38-04:00</lastmod>
+</url>
+<url>
+<loc>https://austinleejohnscott.com/wmata-metro-rail-map.html</loc>
+<lastmod>2026-09-24T19:56:09-04:00</lastmod>
+<image:image>
+<image:loc>https://austinleejohnscott.com/media/posts/17/dc-metro-map-black-background.png</image:loc>
+<image:title><![CDATA[DC Metro map]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://austinleejohnscott.com/workbook.html</loc>
